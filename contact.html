@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>
+  Hayley's Resume
+ </title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" type="image/x-icon" href="images/favicon_io (5)/favicon-32x32.png">
+ <script src="https://kit.fontawesome.com/2466f8e40a.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="style">
+ <div class="navbar">
+  <a href="/homepage.html"><img src="/images/favicon_io (5)/android-chrome-192x192.png" class="logo"></a>
+  <i>
+   <h2 class="hayley">HAYLEY NAIDOO.</h2>
+  </i>
+  <a href="#" class="nav">Contact Me</a>
+  <!--
+   <a href="#" class="nav">Experience</a>
+   <a href="#" class="nav">Projects</a>
+  -->
+  <a href="/homepage.html" class="nav">Home</a>
+ </div>
+
+ <img src="/contact.gif" class="contact">
+
+ <div class="contactme">
+  <h1 class="contactme1">Contact Me</h1>
+  <p class="contactme2">Please feel free to contact me for any queries you may have via linkedin or email.</p>
+  <p class="contactme2">Thanks, Hayley x</p>
+  <div class="links">
+   <a href="https://www.linkedin.com/in/hayley-naidoo" target="_blank" class="link1">
+    <button type="button" class="button3">
+     <i class="fa-brands fa-linkedin fa-2x" style="color: whitesmoke;"></i>
+    </button>
+   </a>
+   <a href=mailto:"hayleynaidoo27@gmail.com" target="_blank" class="link2">
+    <button type="button" class="button4">
+     <i class="fa-regular fa-envelope fa-2x"></i>
+    </button>
+   </a>
+  </div>
+ </div>
+
+ <footer>
+  <div class="footer">
+   <h4 class="footertext">Made by Hayley
+    <i class="fa-regular fa-heart fa-xs" style="color: #ffffff;"></i>
+   </h4>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+   <i class="fa-solid fa-arrow-up" style="color: #fafcff;"></i>
+   <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+     } else {
+      mybutton.style.display = "none";
+     }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+    }
+   </script>
+  </button>
+ </footer>
+
+</html>
